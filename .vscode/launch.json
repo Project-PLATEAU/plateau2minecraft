@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Python: モジュール",
+      "type": "python",
+      "request": "launch",
+      "module": "plateau2minecraft",
+      "args": [
+        "--target",
+        "data/input/53394526_bldg_6697_2_op.gml",
+        "--output",
+        "data/output/"
+      ],
+      "justMyCode": true
+    }
+  ]
+}
