@@ -47,6 +47,11 @@
   - ストレージ: 100GB以上の空き容量
   - OS: Windows 11 Home Edition, Pro Edition
 
+## ユーザマニュアル
+
+- ユーザマニュアルは[こちら](/docs/Minecraftワールドデータ作成マニュアル.pdf)から入手可能です。
+
+
 ## 利用方法
 
 - リポジトリをclone
