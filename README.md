@@ -51,7 +51,6 @@
 
 - ユーザマニュアルは[こちら](/docs/Minecraftワールドデータ作成マニュアル.pdf)から入手可能です。
 
-
 ## 利用方法
 
 - リポジトリをclone
@@ -80,3 +79,7 @@ poetry run python -m plateau2minecraft --target data/13100_tokyo23-ku_2022_cityg
 
 - `src/plateau2minecraft/anvil`は[anvil-parser](https://github.com/WoutCherlet/anvil-parser)を利用しています
 - `src/plateau2minecraft/earcut`は[earcut-py](https://github.com/MIERUNE/earcut-py)を利用しています
+
+- [PLATEAU Kids Challenge  ～日本の街をマインクラフトで遊んでみよう！～](https://ascii20230821.peatix.com/)のイベントで利用された「西新宿」ワールドデータは[/world_data/](/world_data/)で配信しています
+  - [world_data/shinjuku_plateau.mcworld](world_data/shinjuku_plateau.mcworld)は統合版のワールドデータです
+  - [world_data/world_data.zip](world_data/world_data.zip)はJava版のワールドデータです
