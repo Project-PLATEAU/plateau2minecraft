@@ -57,6 +57,11 @@
   - [world_data/shinjuku_plateau.mcworld](world_data/shinjuku_plateau.mcworld)は統合版のワールドデータです
   - [world_data/world_data.zip](world_data/world_data.zip)はJava版のワールドデータです
 
+![2023-08-04_10 48 52](https://github.com/Project-PLATEAU/plateau2minecraft/assets/79615787/4b9195a9-74b5-44d9-9af1-7b177cbc2923)
+![2023-08-04_10 50 03](https://github.com/Project-PLATEAU/plateau2minecraft/assets/79615787/03fa5e81-2244-4ee9-9b71-4fa5b516958b)
+![image (1)](https://github.com/Project-PLATEAU/plateau2minecraft/assets/79615787/5a3742df-b7fa-4103-8a2d-48816e34d50c)
+※このデータは本ツールによって変換したデータに手作業で加工を加え、ディティールを追加したものになります。
+
 
 ## 利用方法
 
