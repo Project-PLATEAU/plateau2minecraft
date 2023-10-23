@@ -56,6 +56,8 @@ class Minecraft:
         points = self._point_shift(points, -origin_point[0], -origin_point[1], 0)
         # ボクセル中心を原点とする。ボクセルは1m間隔なので、原点を右に0.5m、下に0.5mずらす
         points = self._point_shift(points, 0.5, 0.5, 0)
+        # Y軸を反転させて、Minecraftの南北とあわせる
+        points[:, 1] *= -1
 
         # 原点を中心として、x軸方向に512m、y軸方向に512mの領域を作成する
         # 領域ごとに、ボクセルの点群を分割する
@@ -80,7 +82,7 @@ class Minecraft:
             for row in points:
                 x, y, z = row
                 try:
-                    region.set_block(stone, x, z, y)  # MinecraftとはY-UPの右手系なので、そのように変数を定義する
+                    region.set_block(stone, x, z, y) # MinecraftとはY-UPの右手系なので、そのように変数を定義する
                 except OutOfBoundsCoordinates:
                     continue
             print(f"save: {block_id}")
