@@ -10,7 +10,7 @@ packages = [{include = "plateau2minecraft", from = "src"}]
 python = "~3.10"
 numpy = "^1.25.0"
 trimesh = "^3.22.1"
-open3d = "^0.16.0"
+open3d = "0.16.0"
 lxml = "^4.9.2"
 geopandas = "^0.13.2"
 scipy = "^1.10.1"
