@@ -15,6 +15,9 @@
 - データのご利用にあたっては、ご利用される方の責任において導入等を行ってください
 - Minecraftそのものの遊び方やデータの活用方法についてはデータ提供者は対応することができませんので、ご了承ください
 - Pythonのインストールなど、詳細な利用方法については、別途マニュアルを公開予定です
+- 本リポジトリおよびソフトウェアは Project PLATEAU の参考資料として提供しているものです。動作の保証は行っておりません。
+- 本リポジトリおよび本ソフトウェアの利用により生じた損失及び損害等について、開発者および国土交通省はいかなる責任も負わないものとします。
+- 本リポジトリの内容は予告なく変更・削除する場合があります。
 
 ## 変換後データの仕様
 
@@ -35,13 +38,14 @@
 ## システム要件
 
 - 最小システム要件
+
   - なお、以下の要件では変換するCityGMLファイルのサイズによってはメモリー不足などによるエラーが発生する可能性があります。
   - プロセッサ: Intel Core i5-10300H
   - メモリー: 8 GB
   - ストレージ: 30 GB以上の空き容量
   - OS: Windows 11 Home Edition, Pro Edition
-
 - 推奨システム要件
+
   - プロセッサ: Intel Core i9-10900KF
   - メモリー: 64 GB
   - ストレージ: 100GB以上の空き容量
@@ -51,8 +55,8 @@
 
 - ユーザマニュアルは[こちら](/docs/Minecraftワールドデータ作成マニュアル.pdf)から入手可能です。
 
-
 ## サンプルデータ
+
 - [PLATEAU Kids Challenge  ～日本の街をマインクラフトで遊んでみよう！～](https://ascii20230821.peatix.com/)のイベントで利用された「西新宿」周辺エリアのワールドデータを[/world_data/](/world_data/)で配布しています。
   - [world_data/shinjuku_plateau.mcworld](world_data/shinjuku_plateau.mcworld)は統合版のワールドデータです
   - [world_data/world_data.zip](world_data/world_data.zip)はJava版のワールドデータです
@@ -61,7 +65,6 @@
 ![2023-08-04_10 50 03](https://github.com/Project-PLATEAU/plateau2minecraft/assets/79615787/03fa5e81-2244-4ee9-9b71-4fa5b516958b)
 ![image (1)](https://github.com/Project-PLATEAU/plateau2minecraft/assets/79615787/5a3742df-b7fa-4103-8a2d-48816e34d50c)
 ※このデータは本ツールによって変換したデータに手作業で加工を加え、ディティールを追加したものになります。
-
 
 ## 利用方法
 
@@ -83,11 +86,16 @@ cd plateau2minecraft/
 poetry run python -m plateau2minecraft --target data/13100_tokyo23-ku_2022_citygml_1_2_op/udx/bldg/53393503_bldg_6697_2_op.gml --output data/output/
 ```
 
-- 生成された`plateau2minecraft/data/output/world_data/region/`以下の.mcaファイルをMinecraftフォルダ内の`minecraft/saves/<your_world_name>/region/`フォルダ内に格納する
-
+- 生成された `plateau2minecraft/data/output/world_data/region/`以下の.mcaファイルをMinecraftフォルダ内の `minecraft/saves/<your_world_name>/region/`フォルダ内に格納する
 - Minecraft上で当該ワールドを開く
 
 ## 備考
 
 - `src/plateau2minecraft/anvil`は[anvil-parser](https://github.com/WoutCherlet/anvil-parser)を利用しています
 - `src/plateau2minecraft/earcut`は[earcut-py](https://github.com/MIERUNE/earcut-py)を利用しています
+
+## ライセンス
+
+- 本ソフトウェアは、MITライセンスのもとで提供されるオープンソースソフトウエアです。
+- ソースコードおよび関連ドキュメントの著作権は国土交通省および開発者に帰属します。
+- 本ソフトウェアの開発は[株式会社MIERUNE](https://www.mierune.co.jp/)が行っています。
