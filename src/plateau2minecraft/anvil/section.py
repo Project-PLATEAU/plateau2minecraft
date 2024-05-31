@@ -16,10 +16,10 @@ _VERSION_1_17_1 = 2730
 _VERSION_20w17a = 2529
 
 # This version changes how biomes are stored to allow for biomes at different heights
-# https://minecraft.fandom.com/wiki/Java_Edition_19w36a
+# https://minecraft.wiki/w/Java_Edition_19w36a
 _VERSION_19w36a = 2203
 
-# This is the version where "The Flattening" (https://minecraft.gamepedia.com/Java_Edition_1.13/Flattening) happened
+# This is the version where "The Flattening" (https://minecraft.wiki/w/Java_Edition_1.13/Flattening) happened
 # where blocks went from numeric ids to namespaced ids (namespace:block_id)
 _VERSION_17w47a = 1451
 
